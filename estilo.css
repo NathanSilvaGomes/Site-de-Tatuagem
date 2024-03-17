@@ -1,0 +1,223 @@
+body{
+    background: url(imagens/CAPA\ DAS\ PAGINAS.jpg);
+    font: 16px arial, helvetica, sans-serif;
+}
+
+/*Inicio da galeria na tela principal */
+.imagens-container {
+    text-align: center;/* alinha as imagens no meio do site */
+}
+
+.imagens-container img {
+    border: 2px solid #FB8C00;
+    display: inline-block; /* Exibe as imagens em linha como blocos */
+    width: 300px; /* Defina a largura desejada para as imagens */
+    height: 400px; /* Defina a altura desejada para as imagens */
+    margin: 15px; /* Adiciona margens ao redor das imagens conforme necessário */
+}
+
+/*fim da galeria na tela principal */
+
+#principal {
+    
+        width: 400px;
+}
+
+#menu {
+    
+    background: #1b1a1a;
+    padding: 5px;
+    
+}
+
+
+
+.cinza{
+    color: #717f8e;
+    
+}
+
+.buttom{
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: orange;
+    color: black;
+    padding: 25px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+
+
+
+.branco{
+    color: #fefefe;
+}
+
+.cor_da_logo{
+    color: orange;
+}
+
+a  {
+    color: #fefafa;
+    text-decoration: none;
+    font-weight: bold ;
+    padding: 15px;
+}
+
+a:hover {
+    color: #e5e1db
+}
+         
+
+
+.centralizar {
+    
+    text-align: center;
+}
+
+.img-campanha{
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.centralizaresq {
+    text-align: right;
+}
+
+.centralizard {
+    text-align: left;
+}
+
+
+/*Inicio do sobre no tela principal */
+
+#sobre{
+    background-color: rgb(48, 48, 48);
+    margin: 30px;
+    padding: 40px;
+    
+}
+
+.espaco_sobre {
+
+width: 300px;
+margin: 0 10px;
+}
+
+/*FIM */
+
+/*tela de contato */
+
+    .float {
+        float: right;
+        width: 550px;
+        margin-right: 20px;
+
+    }
+
+    .info-box{
+        border-radius: 10px;
+        margin: 50px 90px 10px 40px;
+        border: 3px solid #877b7b;
+        padding: 10px;
+        
+        
+    }
+
+    .margemdotitulo {
+        margin: 130px 20px 20px 80px;
+    }
+
+    .margem {
+        margin: 50px 10px 50px 60px;
+    }
+
+
+/*FIM */
+
+/*tela de contato2 */
+.section-5{
+    padding: 0 10rem 0 10rem ;
+}
+
+.section-5 h2{
+    align-items: center;
+    text-align: center;
+    color: #FB8C00;
+    font-size: 3rem;
+    margin-top: 3 rem;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    background-color: #13131a;
+    padding: 2rem;
+    width: 50rem;
+    height: auto;
+}
+
+.section-5 .container-form .container-form {
+    width: 90%;
+    flex: 1.45rem;
+    object-fit: cover;
+
+}
+
+.inputform{
+display: flex;
+align-items: center;
+padding: 0 0 0 1rem;
+margin-top: 1rem;
+background: #13131a;
+}
+
+.inputform input {
+    width: 90%;
+    padding: 1.5rem;
+    background: #f6f6f6;
+    transition: 0.3s all;
+
+
+}
+ 
+.inputform span {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/*Esse e o bottam de enviar contao*/
+form button{ 
+    margin-top: 2rem;
+    background-color: #fe8c00;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    
+
+}
+
+form button:hover{
+    letter-spacing: 2px;
+    transition: 0.3s all;
+
+
+}
+
+
+
+
+
+
+
+
+
+
